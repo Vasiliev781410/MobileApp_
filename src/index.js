@@ -45,6 +45,7 @@
   window.addEventListener('load', swiperSlider, false);
  
 })();
+//
  function scrollToSection() {
     function smoothScroll(targetEl, duration) {
         // const headerElHeight = head.clientHeight;
