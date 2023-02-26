@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MobileApp</title>
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="./images/favicon.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./index.js"></script>
+  </head>  
+    <include src="./partials/layout/header.html"></include>
+    <main>
+      <include src="./partials/layout/hero.html"></include>
+      <include src="./partials/layout/features.html"></include>
+      <include src="./partials/layout/video.html"></include>
+      <include src="./partials/layout/team.html"></include>
+      <include src="./partials/layout/testimonials.html"></include>
+      <include src="./partials/layout/соntact.html"></include>
+    </main>
+    <include src="./partials/layout/footer.html"></include>
+    <include src="./partials/layout/modal-download.html"></include>
+    <include src="./partials/layout/modal-menu.html"></include>
+    <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+  color: var(--primary-text-color);
+  font-family: 'Inter', sans-serif;
+
+  color: var(--primary-text-color);
+  font-family: 'Inter', sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
