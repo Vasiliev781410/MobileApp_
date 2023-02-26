@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://KolyaSeneta.github.io/mobile_app",
+  "homepage": "https://Vasiliev781410.github.io/MobileApp_",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /mobile_app/"
+    "build": "parcel build src/*.html --public-url /MobileApp_/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KolyaSeneta/mobile_app.git"
+    "url": "git+https://github.com/Vasiliev781410/MobileApp_.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
